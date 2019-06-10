@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+}
+header {
+color: red;
+}
+.navmenu {
+font-weight: bold;
+padding: 10px;
+}
+#aside1 {
+	width: 30%;
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: pink;
+ }
+main {
+
+}
+#maintext {
+	margin: 0px;
+	background-color: white;
+}
+#aside2{
+	width: 30%;
+	float: right;
+
+
+}
+footer {
+clear: left; 
+clear: right;
+font-style: italic;
+}
+#maintext :: first-letter {
+	font-size:1.5em;
+	color: red;
+}
