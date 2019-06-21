@@ -1,12 +1,57 @@
-* {
-	background-color: #F4EECF;
+
+body {
+	background-color: lightgrey;
+	background-image: url(Background.jpg);
+	font-family: Arial, sans-serif;
+	font-size: 16pt;
+	word-spacing:2px;
+	line-height: 1.5;
+	color: #3B3B3B;
+}
+h1{
+	font-family: 'Aguafina Script', cursive;
+	text-align: center;
+	color: grey;
+	font-weight: bold;
+	text-shadow: 3px 3px 2px rgb(0,0,0);
 }
 aside { 
 	float: left;
-	height: 400px;
-	padding:10px;
-    margin: 10px;
-   background-color: #D5B58A; 
+	height: 500px;
+	padding:20px;
+	margin: 25px;
+    background:linear-gradient(to right,lightgrey, lightblue); 
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px grey;
 }
 img {
 	height: 200px;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+hr {
+	color: green;
+}
+nav {
+	text-align: right;
+}
+.button {
+	background:radial-gradient(50% 50%,#FED85A,orange);
+	border-radius: 10px;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px rgb(0,0,0);
+	color: white;
+	display: inline-block;
+	margin-top: 0px;
+	padding: 10px;
+	font-size: 16pt;
+	cursor: pointer;
+
+}
+.mybio {
+	font-style: oblique;
+}
+.headingstyle {
+	color: grey;
+	text-shadow: 2px 2px 3px rgb(0,0,0);
+}
